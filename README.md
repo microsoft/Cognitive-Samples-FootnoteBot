@@ -17,7 +17,7 @@ Navigating the project
 **Reading & responding to messages with ELIS:** Controllers/MessagesController.cs  
 **Editing the website & webchat:** /default.htm
 
-Remember! To connect up to your bot instead of footnotes, update:  
+Remember! If you want to actually deploy the bot on new channels, you'll need to make a bot on [BotFramework.com](<https://www.botframework.com/>) and connect this project to it. In order to do that, make your bot and then update the following with your new app id & secret:  
 - Web.config <appsettings> tag
 - default.htm WebChat iframe src
 - emulator app id & secret
