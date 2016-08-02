@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -43,7 +43,7 @@ namespace footnotes
                 //Step 3: Create our reply if a result was found
                 if (entityLinkResult != null & entityLinkResult.Length > 0)
                     replyMessage = activity.CreateReply($"Footnotes: {entityLinkResult}");
-                    await connector.Conversations.ReplyToActivityAsync(replyMessage);
+                await connector.Conversations.ReplyToActivityAsync(replyMessage);
 
             }
             else
