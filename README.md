@@ -8,9 +8,9 @@ Getting started
 1. Get a key for Entity Linking from [Microsoft.com/Cognitive](<https://www.microsoft.com/cognitive-services/en-us/sign-up>). Put it into project file Utilities/Keys const ELIS
 2. Build and deploy the project to your local host
 3. Now you can test footnotes in the web chat on the page, or through the Bot Framework Emulator
- -   URL: https:/<local host>/api/messages
+ -   URL: https://localhost/api/messages
  -   App id: footnote
- -   App secrect: cdf9f800627b47b2accf21f9a182e624
+ -   App secret: cdf9f800627b47b2accf21f9a182e624
 
 
 Navigating the project
@@ -19,7 +19,7 @@ Navigating the project
 **Editing the website & webchat:** /default.htm
 
 Remember! If you want to actually deploy the bot on new channels, you'll need to make a bot on [BotFramework.com](<https://www.botframework.com/>) and connect this project to it. In order to do that, make your bot and then update the following with your new app id & secret:  
-- Web.config <appsettings> tag
+- Web.config `<appsettings>` tag
 - default.htm WebChat iframe src
 - emulator app id & secret
 
