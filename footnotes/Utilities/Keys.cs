@@ -8,5 +8,6 @@ namespace footnotes.Utilities
     public class Keys
     {
         public const string ELIS = "YOUR ENTITY LINKING KEY FROM HTTP://WWW.MICROSOFT.COM/COGNITIVE";
+
     }
 }
